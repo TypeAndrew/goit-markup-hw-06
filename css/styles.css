@@ -569,10 +569,14 @@ a:hover, a {
 
     width: 170px;
     height: 92px;
-    border: 1px solid Var(--color-darck-grey);
-    border-radius: 4px;
+    /*border: 1px solid Var(--color-darck-grey);
+    border-radius: 4px*/;
 }
 
+.item-client:hover {
+
+   /*border-color: var(--color-blue);*/
+}
 
 .footer-company {
    margin-right: 70px;
@@ -658,6 +662,10 @@ a:hover, a {
 .icon-client {
 
     fill: var(--color-darck-grey);
+    border: 1px solid var(--color-blue);
+    border-color: var(--color-darck-grey);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
 }
 
 .icon-client:hover {
@@ -665,7 +673,9 @@ a:hover, a {
     fill: var(--color-blue);
     border: 1px solid var(--color-blue);
     border-color: var(--color-blue);
+    
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
 }
 
 .refer-project {
@@ -781,7 +791,7 @@ a:hover, a {
 }
 
 .modal {
-    position: absolute;
+    position: fixed;
     padding: 40px;
     
     width: 528px;
@@ -993,6 +1003,9 @@ a:hover, a {
     margin-bottom: 20px;   
     resize: none;
     
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
 }
 
 .checkbox-input {
@@ -1074,6 +1087,7 @@ a:hover, a {
 .form-field-checkbox{
     /*position: relative;*/
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-bottom: 30px;
     
@@ -1097,7 +1111,7 @@ a:hover, a {
     top: 50%;
     transform: translateY(-50%);
     fill: var(--color-white);
-    stroke: var(--color-dark);
+    /*stroke: var(--color-dark);*/
     
 
 }
