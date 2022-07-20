@@ -978,6 +978,19 @@ a:hover, a {
     color: var(--color-brown);
 }
 
+.form-checkbox-label {
+    
+    display: block;
+    position: relative;
+    font-size: 14px;
+    line-height: 1.71;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: var(--color-brown);
+}
+
 .form-field-input {
 
     box-sizing: border-box;
@@ -1017,7 +1030,8 @@ a:hover, a {
    
     
     background: var(--color-white);
-    border: 0.2px solid var(---color-white);
+    border: 0.2px solid var(--color-dark);
+    
 }
 
 .form-field-inner {
@@ -1111,7 +1125,7 @@ a:hover, a {
     top: 50%;
     transform: translateY(-50%);
     fill: var(--color-white);
-    /*stroke: var(--color-dark);*/
+    stroke: var(--color-dark);
     
 
 }
@@ -1120,11 +1134,11 @@ a:hover, a {
 .checkbox-input:checked ~ .icon-checkbox {
 
     fill: var(--color-blue);
-    
+    stroke: var(--color-blue);
 
 }
 
 .tittle-chekbox {
-    font-size: 14px;
+    
     margin-left: 9px;
 }
